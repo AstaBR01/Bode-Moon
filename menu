@@ -2024,6 +2024,9 @@ function main()
         end
         vu1.Process = vu17.v
     end
+	if main then
+    main() 
+end
 end
 function samp_create_sync_data(p361, p362)
     local vu363 = require("ffi")
